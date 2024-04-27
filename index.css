@@ -1,0 +1,48 @@
+body{
+    background-image: url(neat.jpg);
+    background-size: cover;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.profileCard{
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 50px;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid cadetblue;
+}
+
+.name{
+    color: cadetblue;
+}
+
+.jobTitle{
+    margin-top: -15px;
+    margin-bottom: 30px;
+    color: rgb(117, 188, 190);
+}
+
+.description{
+    text-align: left;
+    color: grey;
+}
