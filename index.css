@@ -7,7 +7,7 @@ h1{
 }
 
 .profileCard{
-    width: 320px;
+    width: 300px;
     margin: 30px auto 0;
     justify-content: center;
     background-color: aliceblue;
@@ -17,7 +17,7 @@ h1{
 }
 
 .cards{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
 }
