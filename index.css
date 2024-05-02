@@ -1,6 +1,4 @@
 body{
-    background-image: url(neat.jpg);
-    background-size: cover;
     font-size: larger;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -10,13 +8,13 @@ h1{
 }
 
 .profileCard{
-    width: 20%;
-    margin: auto;
+    width: 400px;
+    margin: 40px auto 0;
     justify-content: center;
     background-color: aliceblue;
-    padding: 50px;
-    margin-top: 5%;
+    padding: 70px 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
 }
 
 .cards{
@@ -29,20 +27,25 @@ h1{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 2px solid cadetblue;
+    border: 5px solid cadetblue;
 }
 
 .name{
     color: cadetblue;
+    font-weight: bolder;
 }
 
 .jobTitle{
     margin-top: -15px;
     margin-bottom: 30px;
-    color: rgb(117, 188, 190);
+    color: cadetblue;
 }
 
 .description{
     text-align: left;
-    color: grey;
+    color: rgb(88, 137, 138);
+    background-color: #f0f8ff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
