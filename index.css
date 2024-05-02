@@ -1,5 +1,4 @@
 body{
-    font-size: larger;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -8,11 +7,11 @@ h1{
 }
 
 .profileCard{
-    width: 400px;
-    margin: 40px auto 0;
+    width: 320px;
+    margin: 30px auto 0;
     justify-content: center;
     background-color: aliceblue;
-    padding: 70px 20px;
+    padding: 30px 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 3px;
 }
@@ -24,8 +23,8 @@ h1{
 }
 
 .image img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 5px solid cadetblue;
 }
